@@ -50,7 +50,9 @@ No processo de geração dos indivíduos com o intuito de encontrar a solução 
 
 ![Resultado mapa 10x10](grafico10x10.png)
 
+Com base no gráfico acima é possível ver que não foi possível encontrar uma solução para o problema relatado, uma vez que os resultados oscilam bastante não convergindo para um resultado admitível. Isso fica mais evidente quando analisamos o gráfico com a quantidade de latas recolhidas em cada época. O máximo de latas recolhidas foram 17, o que não chega à quantidade total de latas no mapa.
 
+![Latas recolhidas mapa 10x10](latas10x10.png)
 
 
 
