@@ -54,5 +54,5 @@ Com base no gráfico acima é possível ver que não foi possível encontrar uma
 
 ![Latas recolhidas mapa 10x10](latas10x10.png)
 
-
+Uma das possíveis causas do resultado obtido é devido à função objetivo utilizada que não representou muito bem o resultado do indivíduo, não gerando boas aptidões para os indivíduos corretos.
 
