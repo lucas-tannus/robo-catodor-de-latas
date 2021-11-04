@@ -28,6 +28,17 @@ Enquanto: o indivíduo não executou a quantidade de ações equivalente à 90% 
   de recompensas é interrompido.
 ```
 
+A fim de exemplificar vamos imaginar o mapa abaixo no qual L representam as latas de aço.  
+
+![Caminho exemplo](caminho_exemplo.png)
+
+Dessa maneira, o cálculo da aptidão, dado que o caminho percorrido pelo indivíduo é o tracejado laranja, será:
+
+```
+aptidão = 11*(-1) + 6*10 = 49
+```
+
+
 ### Seleção dos indivíduos
 
 Para a seleção dos indivíduos ápitos para participarem do cruzamento foi utilizado o método da roleta. O qual cada indivíduo da população é representado na roleta proporcionalmente à sua aptidão.
@@ -56,3 +67,12 @@ Com base no gráfico acima é possível ver que não foi possível encontrar uma
 
 Uma das possíveis causas do resultado obtido é devido à função objetivo utilizada que não representou muito bem o resultado do indivíduo, não gerando boas aptidões para os indivíduos corretos.
 
+Da mesma forma, em mapas com dimensões 20x20 e 50x50 para o mesmo experimento foram obtidos resultados semelhantes, como pode ser visto nos gráficos abaixo.
+
+Resultado do mapa 20x20:
+
+![Resultado mapa 20x20](grafico20x20.png)
+
+Resultado do mapa 50x50:
+
+![Resultado mapa 50x50](grafico50x50.png)
